@@ -18,4 +18,12 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\KcsCoreApp.Application\KcsCoreApp.Application.csproj" />
+    <ProjectReference Include="..\KcsCoreApp.Data.EF\KcsCoreApp.Data.EF.csproj" />
+    <ProjectReference Include="..\KcsCoreApp.Data\KcsCoreApp.Data.csproj" />
+    <ProjectReference Include="..\KcsCoreApp.Infrastructure\KcsCoreApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\KcsCoreApp.Utilites\KcsCoreApp.Utilites.csproj" />
+  </ItemGroup>
+
 </Project>
